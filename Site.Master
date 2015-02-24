@@ -38,18 +38,13 @@
         <div class="content-wrapper">
             <div class="float-left">
                 <p class="site-title">
-                    <a runat="server" href="~/">your logo here</a>
+                    <a runat="server" href="~/">Aqsa Saeed</a>
                 </p>
             </div>
             <div class="float-right">
                 <section id="login">
                     <asp:LoginView runat="server" ViewStateMode="Disabled">
-                        <AnonymousTemplate>
-                            <ul>
-                                <li><a id="registerLink" runat="server" href="~/Account/Register.aspx">Register</a></li>
-                                <li><a id="loginLink" runat="server" href="~/Account/Login.aspx">Log in</a></li>
-                            </ul>
-                        </AnonymousTemplate>
+
                         <LoggedInTemplate>
                             <p>
                                 Hello, <a runat="server" class="username" href="~/Account/Manage.aspx" title="Manage your account">
@@ -78,7 +73,7 @@
     <footer>
         <div class="content-wrapper">
             <div class="float-left">
-                <p>&copy; <%: DateTime.Now.Year %> - My ASP.NET Application</p>
+                <p>&copy; <%: DateTime.Now.Year %> - Ead Term Project by mcsf13a08</p>
             </div>
         </div>
     </footer>

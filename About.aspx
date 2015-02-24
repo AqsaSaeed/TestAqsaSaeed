@@ -2,29 +2,20 @@
 
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
     <hgroup class="title">
-        <h1><%: Title %>.</h1>
-        <h2>Your app description page.</h2>
+        <h2>App description page.</h2>
     </hgroup>
 
     <article>
         <p>        
-            Use this area to provide additional information.
+           Online Shoping point help to buy online bags and shoes Products .
         </p>
 
-        <p>        
-            Use this area to provide additional information.
-        </p>
-
-        <p>        
-            Use this area to provide additional information.
-        </p>
+        
     </article>
 
     <aside>
-        <h3>Aside Title</h3>
-        <p>        
-            Use this area to provide additional information.
-        </p>
+        <h3>Side Title</h3>
+       
         <ul>
             <li><a runat="server" href="~/">Home</a></li>
             <li><a runat="server" href="~/About.aspx">About</a></li>
